@@ -23,7 +23,7 @@ module.exports = class extends Command {
   if (!banreason) return message.reply("Please indicate a reason for the kick!") // if no reason
   bannedmember.ban(banreason) //if reason, kick
       .catch(error => message.reply(`Sorry @${message.author} I couldn't ban because of : ${error}`)); //if error, display error
-  message.channel.send(`${bannedmember.user.username} :hammer:  has been banned by ${message.author.username} :hammer:  because: ${banreason}`);
+  message.channel.send(`${bannedmember.user.username} :hammer:  has been banneddd by ${message.author.username} :hammer:  because: ${banreason}`);
   }
     }
 };
