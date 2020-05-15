@@ -21,7 +21,7 @@ module.exports = class extends Command {
         
         msg.delete().catch();
         const embed = new MessageEmbed()
-            .setColor("#FFFFFF")
+            .setColor("ORANGE")
             .setTimestamp()
             .setDescription(`A poll has been started by ${msg.author.username}!`)
             .addField("Question: ", `${question}`);
