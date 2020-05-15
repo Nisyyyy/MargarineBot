@@ -1,14 +1,14 @@
 {
-    "token": "Token Key",
-    "prefix": "Prefix", 
+    "token": "NzEwOTI3MDA3NDgyOTA0NjY5.Xr7klg.4Vxir8U0bhvw7fpnSj7xVJ7sGT4",
+    "prefix": "!", 
     "build": {
         "version": "Release 1.2.2",
         "releaseDate": "May 7th, 2020"
     },
     "owner": {
         "channels": {
-            "award": "Channel ID",
-            "report": "Channel ID"
+            "award": "710943645703995463",
+            "report": "710943676062498817"
         },
         "awards": {
             "suggest": 250,
