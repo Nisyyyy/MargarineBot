@@ -1,4 +1,4 @@
-const Discord = require("discord.js");
+const Discord = require("./discord.js");
 let games = require("../assets/localization.json")["games"];
 
 function Presence(client, type, name, status) {
