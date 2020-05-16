@@ -5,7 +5,7 @@ function Presence(client, type, name, status) {
     type = tList[type];
     name = (name !== "-null") ? `${client.ownerSetting.get("globalPrefix")}help | ${name}` : null;
 
-    client.user.setPresence(`f!help | playing with a fox`, "https://www.twitch.tv/mario");
+    client.user.setGame(`f!help | playing with a fox`, "https://www.twitch.tv/mario");
 }
 
 /**
